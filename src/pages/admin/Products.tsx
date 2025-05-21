@@ -55,7 +55,7 @@ const Products = () => {
 
   const fetchProducts = async () => {
     try {
-      const res = await fetch("http://localhost:5555/api/products/user/getproducts");
+      const res = await fetch("https://ecomercebackend-1.onrender.com/api/products/user/getproducts");
       const data = await res.json();
       if (data.status === "success") {
         setProducts(data.products);
@@ -79,7 +79,7 @@ const Products = () => {
     // Replace this URL with your actual API endpoint
     const fetchCategories = async () => {
       try {
-        const res = await fetch("http://localhost:5555/api/categories/admin/getallcategory");
+        const res = await fetch("https://ecomercebackend-1.onrender.com/api/categories/admin/getallcategory");
         const data = await res.json();
         setCategories(data); // Assuming the response is an array of strings or objects with "name"
       } catch (error) {
@@ -141,7 +141,7 @@ const Products = () => {
 
   const handleDelete = async (id:any) => {
     try {
-      const res = await fetch(`http://localhost:5555/api/products/${id}`, {
+      const res = await fetch(`https://ecomercebackend-1.onrender.com/api/products/${id}`, {
         method: "DELETE",
       });
       const data = await res.json();
@@ -159,7 +159,7 @@ const Products = () => {
   const handleAddProduct = async() => {
     toast("Redirect to Add Product form or open a modal");
     try {
-      const res = await fetch("http://localhost:5555/api/products/add", {
+      const res = await fetch("https://ecomercebackend-1.onrender.com/api/products/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

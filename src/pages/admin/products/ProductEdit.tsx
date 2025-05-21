@@ -24,7 +24,7 @@ const ProductEdit = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`http://localhost:5555/api/products/admin/getproducts/${id}`);
+        const res = await fetch(`https://ecomercebackend-1.onrender.com/api/products/admin/getproducts/${id}`);
         const data = await res.json();
         if (data.status === "success") {
           const { title, price, category, discount, stock, image } = data.product;
@@ -51,7 +51,7 @@ const ProductEdit = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`http://localhost:5555/api/products/admin/update/${id}`, {
+      const res = await fetch(`https://ecomercebackend-1.onrender.com/api/products/admin/update/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

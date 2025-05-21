@@ -16,7 +16,7 @@ const ProductView = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`http://localhost:5555/api/products/admin/getproducts/${id}`);
+        const res = await fetch(`https://ecomercebackend-1.onrender.com/api/products/admin/getproducts/${id}`);
         const data = await res.json();
         if (data.status === "success") {
           setProduct(data.product);
