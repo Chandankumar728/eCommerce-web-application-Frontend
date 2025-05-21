@@ -11,8 +11,8 @@ import { Toaster, toast } from "sonner";
 
 const Settings = () => {
   const [user, setUser] = useState({
-    name: "Sahil Raj",
-    email: "sahil@example.com",
+    name: "Chandan",
+    email: "Chandan@example.com",
     password: "",
     notifications: {
       email: true,

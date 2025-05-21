@@ -45,7 +45,7 @@ const Sidebar = () => {
           {[
             // { name: "Overview", path: "/admin" },
             // { name: "User Management", path: "/admin/users" },
-            // { name: "Analytics", path: "/admin/reports" },
+            { name: "Analytics", path: "/admin/reports" },
             { name: "Product", path: "/admin/products" },
             { name: "Categories", path: "/admin/category" },
             // { name: "Preferences", path: "/admin/settings" },

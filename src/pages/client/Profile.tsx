@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 const Profile = () => {
-  const [name, setName] = useState("Sahil Raj");
-  const [email, setEmail] = useState("sahil.raj@example.com");
+  const [name, setName] = useState("Chandan");
+  const [email, setEmail] = useState("Chandan@example.com");
   const [bio, setBio] = useState("MERN Stack Developer | Passionate about building scalable web apps");
   const [address, setAddress] = useState("1234 Main St, New York, NY");
   const [phone, setPhone] = useState("+1 234 567 890");
-  const [website, setWebsite] = useState("https://sahilraj.dev");
+  const [website, setWebsite] = useState("https://chandan.dev");
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">

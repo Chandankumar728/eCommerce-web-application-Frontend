@@ -73,4 +73,4 @@ orders
 🔑 Credentials
 Admin: / 
 
-User: sahil@gmail.com / sahil@gmail.com
+User: Chandan@gmail.com / Chandan@gmail.com
