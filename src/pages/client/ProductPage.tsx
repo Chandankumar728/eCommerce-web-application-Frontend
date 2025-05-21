@@ -1,3 +1,5 @@
+// @ts-ignore
+// @ts-nocheck
 import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";

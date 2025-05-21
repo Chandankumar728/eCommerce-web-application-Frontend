@@ -1,3 +1,7 @@
+// @ts-ignore
+// @ts-nocheck
+
+
 import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext('light');

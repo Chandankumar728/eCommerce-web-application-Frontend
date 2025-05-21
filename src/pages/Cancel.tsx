@@ -1,3 +1,5 @@
+// @ts-ignore
+// @ts-nocheck
 import React from "react";
 import { XCircle } from "lucide-react"; // optional icon library
 

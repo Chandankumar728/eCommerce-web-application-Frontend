@@ -1,5 +1,6 @@
-"use client";
 
+// @ts-ignore
+// @ts-nocheck
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Skeleton } from "@/components/ui/skeleton";

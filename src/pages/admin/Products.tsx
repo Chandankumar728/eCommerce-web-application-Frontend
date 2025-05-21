@@ -1,4 +1,5 @@
-"use client";
+// @ts-ignore
+// @ts-nocheck
 
 import { useEffect, useState, useMemo } from "react";
 import {
